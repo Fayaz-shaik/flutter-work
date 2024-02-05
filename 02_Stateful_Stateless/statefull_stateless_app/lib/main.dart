@@ -1,10 +1,22 @@
-import "package:flutter/material.dart";
+import 'package:flutter/material.dart';
 
 void main() {
-  var app = MaterialApp(
-    title: "Flutter App",
-    debugShowCheckedModeBanner: false,
-    home: Scaffold(appBar: AppBar(),),
-  );
-  runApp(app);
+  testt();
+  runApp(Text(
+    "Hello WOrld",
+    textDirection: TextDirection.ltr,
+    textAlign: TextAlign.center,
+  ));
+}
+
+void testt() {
+  print("hey".runtimeType);
+}
+
+void rain(){
+  print(1);
+}
+
+int raid(){
+  return 1;
 }
