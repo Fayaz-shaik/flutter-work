@@ -1,7 +1,20 @@
 import 'package:flutter/material.dart';
 
-class base extends StatelessWidget {
-  base({super.key});
+class base extends StatefulWidget {
+  State createState() => _baseState();
+}
+
+class _baseState extends State {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return const Scaffold();
+  
+  }
+}
+
+class basee extends StatelessWidget {
+  basee({super.key});
   @override
   Widget build(BuildContext buildContext) {
     return MaterialApp(
