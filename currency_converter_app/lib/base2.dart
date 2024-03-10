@@ -9,10 +9,16 @@ class base2 extends StatefulWidget {
   State<base2> createState() => _base2State();
 }
 
+// ignore: camel_case_types
 class _base2State extends State<base2> {
-  @override
   double result = 0;
   final TextEditingController textEditingController = TextEditingController();
+  
+  @override
+  void dispose(){
+    super.dispose();
+  }
+  @override
   Widget build(BuildContext context) {
     // final border = OutlineInputBorder(
     //   borderSide : const BorderSide(
