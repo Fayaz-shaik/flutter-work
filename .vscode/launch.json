@@ -5,6 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "shopping_app",
+            "cwd": "shopping_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "shopping_app (profile mode)",
+            "cwd": "shopping_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "shopping_app (release mode)",
+            "cwd": "shopping_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
             "name": "currency_converter_app",
             "cwd": "currency_converter_app",
             "request": "launch",
